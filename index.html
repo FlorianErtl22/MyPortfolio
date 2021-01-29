@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Florian Ertl</title>
     </head>
     <body>
         <header>
@@ -11,19 +12,85 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="über-mich">Über mich</a>
+                        <a href="#über-mich">Über mich</a>
                     </li>
                     <li>
-                        <a href="skills">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="hobbys">Hobbys</a>
+                        <a href="#hobbys">Hobbys</a>
                     </li>
                     <li>
-                        <a href="contact">Kontakt</a>
+                        <a href="#contact">Kontakt</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        <main>
+            <article id="über-mich">
+                <section class="text">
+                <h2 class="title">
+                    Über mich
+                </h2>
+                <p>
+                    Ich bin aktuell 17 Jahre alt und habe Interressen in vielen verschiedenen Bereichen. 
+                    Egal ob es Robotik, Fullstackwebdevelopment, Politik oder Wirtschaft ist,
+                    ich kann mich für vieles begeistern undbeschäftigen und lerne immer gern dazu. 
+                    Desweiteren bin ich Handwerklich geschickt und arbeite Nebenbei, bei der Hotelgaststätte
+                    "Gasthof zur Post" in Kirchweidach als Schankkellner.  
+                </p>
+                </section>
+                <img src="./BewerbungsfotoErtl.jpg" alt="Bewerbungsfoto Florian Ertl">
+            </article>
+            <article id="skills">
+                <h2 class="title">
+                    Skills
+                </h2>
+                <div class="skills">
+                    <img src="./HTML5_Logo_256.png" alt="Html5 logo">
+                    <img src="./CSS3_logo_and_wordmark.svg.png" alt="CSS3 Logo" id="css">
+                    <img src="./240px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript">
+                    <img src="./arduino-logo-1.png" alt="Arduino">
+                    <img src="./Microsoft_Word_logo.png" alt="word">
+                    <img src="./244px-Microsoft_PowerPoint_2013_logo.svg.png" alt="Powerpoint">
+                    <img src="./384px-Microsoft_Excel_Logo.svg.png" alt="Excel">
+                </div>
+            </article>
+            <article id="hobbys">
+                <h2 class="title">
+                    Hobbys
+                </h2>
+                <details class="fußball">
+                    <summary><h3>Fußball</h3></summary>
+                    <article class="hobby">
+                    <img src="./SiegerehrungGoalplay.jpg" alt="Siegerehrung Goalplay">
+                    <div>
+                    <h3 class="subtitle">Fußball</h3>
+                    <p>
+                        Ich spiele seitdem ich 5 Jahre bin Fußball im Verein und seit einigen Jahren bei der JFG Alztal-Halsbachtal. An dem Sport gefällt mir das Auftreten und Zusammenarbeiten als Team sowie auch die verschiedenen Anforderungen auf der Torwart-Position. Da ich mich auch hier immer verbessern möchte habe Ich an dem Torwarttrainingscamp bzw. der Torwart challenge <em>Goalplay</em> von Oliver Kahn teilgenommen und konnte mich auch für die Endrunde mit dem Gewinn der "Münchner Challenge" qualifizieren.
+                    </p>
+                    </div>
+                    </article>
+                </details>
+                <details class="technik">
+                    <summary><h3>Technik</h3></summary>
+                    <article class="hobby">
+                        <p>TestText</p>
+                        <img src="./ArduinoController.jpg" alt="Arduino Controller">
+                        <img src="./Interface.jpg" alt="Arduino Steuerung">
+                    </article>
+                </details>
+                <details class="kochen">
+                        <summary><h3>Kochen</h3></summary>
+                        <article class="hobby">
+                        <p>TestText</p>
+                        <img src="./GrillLachs.jpg" alt="Lachs auf der Zedernholzplanke auf dem Grill">
+                    </article>    
+                </details>
+            </article>
+            <article id="contact">
+                <h2 class="title">Kontakt</h2>
+            </article>
+        </main>
     </body>
 </html>
