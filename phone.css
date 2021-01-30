@@ -1,6 +1,7 @@
 body{
     font-family: "Open Sans";
     font-size: 16px;
+    max-width: 375px;
 }
 main{
     position: relative;
@@ -9,6 +10,7 @@ main{
     grid-template-columns: repeat(8, 1fr);
     top: 90px;
     line-height: 24px;
+  
 }
 /* Header */
 header{
@@ -29,17 +31,18 @@ header{
 header h1{
     font-size: 1.5rem;
     margin: auto;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 nav ul{
     display: flex;
     align-content: center;
+    align-items: center;
     flex-direction: row;
-    margin: auto 20px;
+    margin: 10px 4px;
     list-style: none;
 }
 nav li{
-    margin: 20px;
+    margin: auto 5px;
 }
 nav a{
     text-decoration: none;
@@ -63,7 +66,7 @@ nav a{
 }
 .text{
     text-align: justify;
-    max-width: 500px;
+    max-width: 100%;
 }
 /* skills */
 #skills{
