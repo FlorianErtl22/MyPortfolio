@@ -73,7 +73,7 @@ nav a{
     grid-area: 2/2/3/8;
   }
   .skills{
-      max-width: 600px;
+      max-width: 360px;
       max-height: 700px;
       display: flex;
       flex-direction: column;
@@ -134,7 +134,7 @@ details{
     margin: 20px auto;
 }
 .hobby p{
-    max-width: 700px;
+    max-width: 360px;
     text-align: justify;
 }
 .hobby p,h3{
@@ -161,7 +161,7 @@ summary h3{
 }
 #hobbys img{
     max-height: 350px;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 /* Kontakt */
