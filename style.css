@@ -48,7 +48,7 @@ nav a{
     color: black;
 }
 nav a:hover{
-    color: rgba(62, 77, 133, 0.8);;
+    color: rgba(62, 77, 133, 0.8);
 }
 /* Über Mich */
 #über-mich{
@@ -170,5 +170,55 @@ summary h3{
 /* Kontakt */
 #contact{
     grid-area: 4/2/5/8;
+    }
+
+#contact-adress{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
 }
 
+#contact-adress img{
+    margin: 40px 60px;
+    height: 60px;
+    width: 60px;
+}
+
+#Tel, #Email{
+   display: none;
+   z-index: 1;
+   position: absolute;
+   max-width: 200px;
+   padding: 10px;
+   border-radius: 4px;
+   color: whitesmoke;
+   background-color: rgba(50, 50, 50, 0.8);
+   box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.8);
+}
+
+#Tel-icon:hover #Tel{
+display: block;
+}
+#Email-icon:hover #Email{
+display: block;
+}
+
+/* Referenz */
+#Referenz{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgba(62, 77, 133, 0.8);
+}

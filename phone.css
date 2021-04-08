@@ -1,7 +1,7 @@
 body{
     font-family: "Open Sans";
     font-size: 16px;
-    max-width: 375px;
+    max-width: 100%;
 }
 main{
     position: relative;
@@ -63,6 +63,7 @@ nav a{
     max-width: 300px;
     box-shadow: 0px 16px 30px rgba(50, 50, 50, 0.8);
     border-radius: 3px;
+    align-self: center;
 }
 .text{
     text-align: justify;
@@ -73,16 +74,17 @@ nav a{
     grid-area: 2/2/3/8;
   }
   .skills{
-      max-width: 360px;
+      max-width: 100%;
       max-height: 700px;
       display: flex;
       flex-direction: column;
       align-content: stretch;
       flex-wrap: wrap;
+      align-self: center;
   
   }
   .skills img{
-      margin: 60px 30px;
+      margin: 60px auto;
       height: 60px;
       width: 60px;
   }
@@ -166,5 +168,43 @@ summary h3{
 
 /* Kontakt */
 #contact{
-    grid-area: 4/2/5/8;
+    grid-area: 4/2/5/7;
+    margin: 30px auto;
+}
+#contact-adress{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+#contact-adress img{
+    margin: 40px 0 40px 60px;
+    height: 60px;
+    width: 60px;
+}
+
+#Tel, #Email{
+   display: none;
+   z-index: 1;
+   position: absolute;
+   max-width: 200px;
+   padding: 10px;
+   border-radius: 4px;
+   color: whitesmoke;
+   background-color: rgba(50, 50, 50, 0.8);
+   box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.8);
+}
+
+#Tel-icon:hover #Tel{
+display: block;
+}
+#Email-icon:hover #Email{
+display: block;
+}
+
+footer{
+    align-self: center;
+    margin: 30px auto 0 auto;
 }
